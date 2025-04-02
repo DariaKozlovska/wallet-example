@@ -6,13 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2BA5EC3E2D9D64B900F70F84 /* ReownAppKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC3D2D9D64B900F70F84 /* ReownAppKit */; };
+		2BA5EC402D9D64B900F70F84 /* ReownAppKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC3F2D9D64B900F70F84 /* ReownAppKitUI */; };
+		2BA5EC422D9D64B900F70F84 /* ReownRouter in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC412D9D64B900F70F84 /* ReownRouter */; };
+		2BA5EC442D9D64B900F70F84 /* ReownWalletKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC432D9D64B900F70F84 /* ReownWalletKit */; };
+		2BA5EC462D9D64B900F70F84 /* WalletConnect in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC452D9D64B900F70F84 /* WalletConnect */; };
+		2BA5EC482D9D64B900F70F84 /* WalletConnectIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC472D9D64B900F70F84 /* WalletConnectIdentity */; };
+		2BA5EC4A2D9D64B900F70F84 /* WalletConnectNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC492D9D64B900F70F84 /* WalletConnectNetworking */; };
+		2BA5EC4C2D9D64B900F70F84 /* WalletConnectNotify in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC4B2D9D64B900F70F84 /* WalletConnectNotify */; };
+		2BA5EC4E2D9D64B900F70F84 /* WalletConnectPairing in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC4D2D9D64B900F70F84 /* WalletConnectPairing */; };
+		2BA5EC502D9D64B900F70F84 /* WalletConnectPush in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC4F2D9D64B900F70F84 /* WalletConnectPush */; };
+		2BA5EC522D9D64B900F70F84 /* WalletConnectVerify in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC512D9D64B900F70F84 /* WalletConnectVerify */; };
+		2BA5EC542D9D64B900F70F84 /* YttriumWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC532D9D64B900F70F84 /* YttriumWrapper */; };
+		2BDD617A2D9D541000E7A929 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 2BDD61792D9D541000E7A929 /* Starscream */; };
+		2BDD61962D9D544F00E7A929 /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = 2BDD61952D9D544F00E7A929 /* Atlantis */; };
+		2BDD61BF2D9D61CF00E7A929 /* Web3 in Frameworks */ = {isa = PBXBuildFile; productRef = 2BDD61BE2D9D61CF00E7A929 /* Web3 */; };
+		2BDD61C12D9D61CF00E7A929 /* Web3ContractABI in Frameworks */ = {isa = PBXBuildFile; productRef = 2BDD61C02D9D61CF00E7A929 /* Web3ContractABI */; };
+		2BDD61C32D9D61CF00E7A929 /* Web3PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2BDD61C22D9D61CF00E7A929 /* Web3PromiseKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2BF7386D2D9C61150084D3E9 /* wallet-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wallet-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2BA5EC572D9D673600F70F84 /* Exceptions for "wallet-example" folder in "wallet-example" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2BF7386C2D9C61150084D3E9 /* wallet-example */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2BF7386F2D9C61150084D3E9 /* wallet-example */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2BA5EC572D9D673600F70F84 /* Exceptions for "wallet-example" folder in "wallet-example" target */,
+			);
 			path = "wallet-example";
 			sourceTree = "<group>";
 		};
@@ -23,6 +56,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDD61BF2D9D61CF00E7A929 /* Web3 in Frameworks */,
+				2BA5EC482D9D64B900F70F84 /* WalletConnectIdentity in Frameworks */,
+				2BA5EC502D9D64B900F70F84 /* WalletConnectPush in Frameworks */,
+				2BA5EC4A2D9D64B900F70F84 /* WalletConnectNetworking in Frameworks */,
+				2BA5EC442D9D64B900F70F84 /* ReownWalletKit in Frameworks */,
+				2BA5EC4C2D9D64B900F70F84 /* WalletConnectNotify in Frameworks */,
+				2BA5EC4E2D9D64B900F70F84 /* WalletConnectPairing in Frameworks */,
+				2BDD617A2D9D541000E7A929 /* Starscream in Frameworks */,
+				2BDD61C12D9D61CF00E7A929 /* Web3ContractABI in Frameworks */,
+				2BA5EC402D9D64B900F70F84 /* ReownAppKitUI in Frameworks */,
+				2BDD61C32D9D61CF00E7A929 /* Web3PromiseKit in Frameworks */,
+				2BA5EC542D9D64B900F70F84 /* YttriumWrapper in Frameworks */,
+				2BA5EC522D9D64B900F70F84 /* WalletConnectVerify in Frameworks */,
+				2BA5EC462D9D64B900F70F84 /* WalletConnect in Frameworks */,
+				2BDD61962D9D544F00E7A929 /* Atlantis in Frameworks */,
+				2BA5EC3E2D9D64B900F70F84 /* ReownAppKit in Frameworks */,
+				2BA5EC422D9D64B900F70F84 /* ReownRouter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +115,23 @@
 			);
 			name = "wallet-example";
 			packageProductDependencies = (
+				2BDD61792D9D541000E7A929 /* Starscream */,
+				2BDD61952D9D544F00E7A929 /* Atlantis */,
+				2BDD61BE2D9D61CF00E7A929 /* Web3 */,
+				2BDD61C02D9D61CF00E7A929 /* Web3ContractABI */,
+				2BDD61C22D9D61CF00E7A929 /* Web3PromiseKit */,
+				2BA5EC3D2D9D64B900F70F84 /* ReownAppKit */,
+				2BA5EC3F2D9D64B900F70F84 /* ReownAppKitUI */,
+				2BA5EC412D9D64B900F70F84 /* ReownRouter */,
+				2BA5EC432D9D64B900F70F84 /* ReownWalletKit */,
+				2BA5EC452D9D64B900F70F84 /* WalletConnect */,
+				2BA5EC472D9D64B900F70F84 /* WalletConnectIdentity */,
+				2BA5EC492D9D64B900F70F84 /* WalletConnectNetworking */,
+				2BA5EC4B2D9D64B900F70F84 /* WalletConnectNotify */,
+				2BA5EC4D2D9D64B900F70F84 /* WalletConnectPairing */,
+				2BA5EC4F2D9D64B900F70F84 /* WalletConnectPush */,
+				2BA5EC512D9D64B900F70F84 /* WalletConnectVerify */,
+				2BA5EC532D9D64B900F70F84 /* YttriumWrapper */,
 			);
 			productName = "wallet-example";
 			productReference = 2BF7386D2D9C61150084D3E9 /* wallet-example.app */;
@@ -94,6 +161,12 @@
 			);
 			mainGroup = 2BF738642D9C61150084D3E9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2BDD61782D9D541000E7A929 /* XCRemoteSwiftPackageReference "Starscream" */,
+				2BDD61942D9D544F00E7A929 /* XCRemoteSwiftPackageReference "atlantis" */,
+				2BDD61BD2D9D61CF00E7A929 /* XCRemoteSwiftPackageReference "Web3.swift" */,
+				2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2BF7386E2D9C61150084D3E9 /* Products */;
 			projectDirPath = "";
@@ -249,12 +322,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "wallet-example/wallet-example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wallet-example/Preview Content\"";
 				DEVELOPMENT_TEAM = 645UJY698H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wallet-example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -278,12 +353,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "wallet-example/wallet-example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wallet-example/Preview Content\"";
 				DEVELOPMENT_TEAM = 645UJY698H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wallet-example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +401,129 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/reown-com/reown-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.3;
+			};
+		};
+		2BDD61782D9D541000E7A929 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.1.2;
+			};
+		};
+		2BDD61942D9D544F00E7A929 /* XCRemoteSwiftPackageReference "atlantis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ProxymanApp/atlantis";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.24.0;
+			};
+		};
+		2BDD61BD2D9D61CF00E7A929 /* XCRemoteSwiftPackageReference "Web3.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Boilertalk/Web3.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2BA5EC3D2D9D64B900F70F84 /* ReownAppKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = ReownAppKit;
+		};
+		2BA5EC3F2D9D64B900F70F84 /* ReownAppKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = ReownAppKitUI;
+		};
+		2BA5EC412D9D64B900F70F84 /* ReownRouter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = ReownRouter;
+		};
+		2BA5EC432D9D64B900F70F84 /* ReownWalletKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = ReownWalletKit;
+		};
+		2BA5EC452D9D64B900F70F84 /* WalletConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = WalletConnect;
+		};
+		2BA5EC472D9D64B900F70F84 /* WalletConnectIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = WalletConnectIdentity;
+		};
+		2BA5EC492D9D64B900F70F84 /* WalletConnectNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = WalletConnectNetworking;
+		};
+		2BA5EC4B2D9D64B900F70F84 /* WalletConnectNotify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = WalletConnectNotify;
+		};
+		2BA5EC4D2D9D64B900F70F84 /* WalletConnectPairing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = WalletConnectPairing;
+		};
+		2BA5EC4F2D9D64B900F70F84 /* WalletConnectPush */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = WalletConnectPush;
+		};
+		2BA5EC512D9D64B900F70F84 /* WalletConnectVerify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = WalletConnectVerify;
+		};
+		2BA5EC532D9D64B900F70F84 /* YttriumWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
+			productName = YttriumWrapper;
+		};
+		2BDD61792D9D541000E7A929 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BDD61782D9D541000E7A929 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		2BDD61952D9D544F00E7A929 /* Atlantis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BDD61942D9D544F00E7A929 /* XCRemoteSwiftPackageReference "atlantis" */;
+			productName = Atlantis;
+		};
+		2BDD61BE2D9D61CF00E7A929 /* Web3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BDD61BD2D9D61CF00E7A929 /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3;
+		};
+		2BDD61C02D9D61CF00E7A929 /* Web3ContractABI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BDD61BD2D9D61CF00E7A929 /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3ContractABI;
+		};
+		2BDD61C22D9D61CF00E7A929 /* Web3PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BDD61BD2D9D61CF00E7A929 /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2BF738652D9C61150084D3E9 /* Project object */;
 }

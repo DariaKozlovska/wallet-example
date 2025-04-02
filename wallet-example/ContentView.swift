@@ -6,19 +6,39 @@
 //
 
 import SwiftUI
+import ReownAppKit
 
 struct ContentView: View {
+    
+    @State private var showUIComponents: Bool = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            VStack {
+                
+                AppKitButton()
+                
+                Button("Personal sign") {
+                    Task {
+                        do {
+                            try await requestPersonalSign()
+                            AppKit.instance.launchCurrentWallet()
+                        } catch {
+                            print("Error occurred: \(error)")
+                        }
+                    }
+                }
+                .buttonStyle(W3MButtonStyle())
+            }
+            .padding()
         }
-        .padding()
+    }
+    func requestPersonalSign() async throws {
+        guard let address = AppKit.instance.getAddress() else { return }
+        try await AppKit.instance.request(.personal_sign(address: address, message: "Hello there!"))
+
     }
 }
 
-#Preview {
-    ContentView()
-}
+
+//user przesyła info ze swojego konta na contract, param: address from i address to 
