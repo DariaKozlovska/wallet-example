@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B12886C2D9F36370056CAB7 /* SolanaSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2B12886B2D9F36370056CAB7 /* SolanaSwift */; };
+		2B12886F2D9F3AF00056CAB7 /* AsyncButton in Frameworks */ = {isa = PBXBuildFile; productRef = 2B12886E2D9F3AF00056CAB7 /* AsyncButton */; };
 		2BA5EC3E2D9D64B900F70F84 /* ReownAppKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC3D2D9D64B900F70F84 /* ReownAppKit */; };
 		2BA5EC402D9D64B900F70F84 /* ReownAppKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC3F2D9D64B900F70F84 /* ReownAppKitUI */; };
 		2BA5EC422D9D64B900F70F84 /* ReownRouter in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC412D9D64B900F70F84 /* ReownRouter */; };
@@ -20,7 +22,6 @@
 		2BA5EC522D9D64B900F70F84 /* WalletConnectVerify in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC512D9D64B900F70F84 /* WalletConnectVerify */; };
 		2BA5EC542D9D64B900F70F84 /* YttriumWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA5EC532D9D64B900F70F84 /* YttriumWrapper */; };
 		2BDD617A2D9D541000E7A929 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 2BDD61792D9D541000E7A929 /* Starscream */; };
-		2BDD61962D9D544F00E7A929 /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = 2BDD61952D9D544F00E7A929 /* Atlantis */; };
 		2BDD61BF2D9D61CF00E7A929 /* Web3 in Frameworks */ = {isa = PBXBuildFile; productRef = 2BDD61BE2D9D61CF00E7A929 /* Web3 */; };
 		2BDD61C12D9D61CF00E7A929 /* Web3ContractABI in Frameworks */ = {isa = PBXBuildFile; productRef = 2BDD61C02D9D61CF00E7A929 /* Web3ContractABI */; };
 		2BDD61C32D9D61CF00E7A929 /* Web3PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2BDD61C22D9D61CF00E7A929 /* Web3PromiseKit */; };
@@ -30,22 +31,9 @@
 		2BF7386D2D9C61150084D3E9 /* wallet-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wallet-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2BA5EC572D9D673600F70F84 /* Exceptions for "wallet-example" folder in "wallet-example" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 2BF7386C2D9C61150084D3E9 /* wallet-example */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2BF7386F2D9C61150084D3E9 /* wallet-example */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				2BA5EC572D9D673600F70F84 /* Exceptions for "wallet-example" folder in "wallet-example" target */,
-			);
 			path = "wallet-example";
 			sourceTree = "<group>";
 		};
@@ -58,6 +46,7 @@
 			files = (
 				2BDD61BF2D9D61CF00E7A929 /* Web3 in Frameworks */,
 				2BA5EC482D9D64B900F70F84 /* WalletConnectIdentity in Frameworks */,
+				2B12886F2D9F3AF00056CAB7 /* AsyncButton in Frameworks */,
 				2BA5EC502D9D64B900F70F84 /* WalletConnectPush in Frameworks */,
 				2BA5EC4A2D9D64B900F70F84 /* WalletConnectNetworking in Frameworks */,
 				2BA5EC442D9D64B900F70F84 /* ReownWalletKit in Frameworks */,
@@ -68,9 +57,9 @@
 				2BA5EC402D9D64B900F70F84 /* ReownAppKitUI in Frameworks */,
 				2BDD61C32D9D61CF00E7A929 /* Web3PromiseKit in Frameworks */,
 				2BA5EC542D9D64B900F70F84 /* YttriumWrapper in Frameworks */,
+				2B12886C2D9F36370056CAB7 /* SolanaSwift in Frameworks */,
 				2BA5EC522D9D64B900F70F84 /* WalletConnectVerify in Frameworks */,
 				2BA5EC462D9D64B900F70F84 /* WalletConnect in Frameworks */,
-				2BDD61962D9D544F00E7A929 /* Atlantis in Frameworks */,
 				2BA5EC3E2D9D64B900F70F84 /* ReownAppKit in Frameworks */,
 				2BA5EC422D9D64B900F70F84 /* ReownRouter in Frameworks */,
 			);
@@ -116,7 +105,6 @@
 			name = "wallet-example";
 			packageProductDependencies = (
 				2BDD61792D9D541000E7A929 /* Starscream */,
-				2BDD61952D9D544F00E7A929 /* Atlantis */,
 				2BDD61BE2D9D61CF00E7A929 /* Web3 */,
 				2BDD61C02D9D61CF00E7A929 /* Web3ContractABI */,
 				2BDD61C22D9D61CF00E7A929 /* Web3PromiseKit */,
@@ -132,6 +120,8 @@
 				2BA5EC4F2D9D64B900F70F84 /* WalletConnectPush */,
 				2BA5EC512D9D64B900F70F84 /* WalletConnectVerify */,
 				2BA5EC532D9D64B900F70F84 /* YttriumWrapper */,
+				2B12886B2D9F36370056CAB7 /* SolanaSwift */,
+				2B12886E2D9F3AF00056CAB7 /* AsyncButton */,
 			);
 			productName = "wallet-example";
 			productReference = 2BF7386D2D9C61150084D3E9 /* wallet-example.app */;
@@ -163,9 +153,10 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				2BDD61782D9D541000E7A929 /* XCRemoteSwiftPackageReference "Starscream" */,
-				2BDD61942D9D544F00E7A929 /* XCRemoteSwiftPackageReference "atlantis" */,
 				2BDD61BD2D9D61CF00E7A929 /* XCRemoteSwiftPackageReference "Web3.swift" */,
 				2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */,
+				2B12886A2D9F36370056CAB7 /* XCRemoteSwiftPackageReference "solana-swift" */,
+				2B12886D2D9F3AF00056CAB7 /* XCRemoteSwiftPackageReference "swiftui-async-button" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2BF7386E2D9C61150084D3E9 /* Products */;
@@ -329,7 +320,7 @@
 				DEVELOPMENT_TEAM = 645UJY698H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "wallet-example/Info.plist";
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -360,7 +351,7 @@
 				DEVELOPMENT_TEAM = 645UJY698H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "wallet-example/Info.plist";
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -403,6 +394,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2B12886A2D9F36370056CAB7 /* XCRemoteSwiftPackageReference "solana-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/p2p-org/solana-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		2B12886D2D9F3AF00056CAB7 /* XCRemoteSwiftPackageReference "swiftui-async-button" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-async-button.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
 		2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/reown-com/reown-swift";
@@ -419,14 +426,6 @@
 				version = 3.1.2;
 			};
 		};
-		2BDD61942D9D544F00E7A929 /* XCRemoteSwiftPackageReference "atlantis" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ProxymanApp/atlantis";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.24.0;
-			};
-		};
 		2BDD61BD2D9D61CF00E7A929 /* XCRemoteSwiftPackageReference "Web3.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Boilertalk/Web3.swift.git";
@@ -438,6 +437,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2B12886B2D9F36370056CAB7 /* SolanaSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B12886A2D9F36370056CAB7 /* XCRemoteSwiftPackageReference "solana-swift" */;
+			productName = SolanaSwift;
+		};
+		2B12886E2D9F3AF00056CAB7 /* AsyncButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B12886D2D9F3AF00056CAB7 /* XCRemoteSwiftPackageReference "swiftui-async-button" */;
+			productName = AsyncButton;
+		};
 		2BA5EC3D2D9D64B900F70F84 /* ReownAppKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2BA5EC3C2D9D64B900F70F84 /* XCRemoteSwiftPackageReference "reown-swift" */;
@@ -502,11 +511,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2BDD61782D9D541000E7A929 /* XCRemoteSwiftPackageReference "Starscream" */;
 			productName = Starscream;
-		};
-		2BDD61952D9D544F00E7A929 /* Atlantis */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2BDD61942D9D544F00E7A929 /* XCRemoteSwiftPackageReference "atlantis" */;
-			productName = Atlantis;
 		};
 		2BDD61BE2D9D61CF00E7A929 /* Web3 */ = {
 			isa = XCSwiftPackageProductDependency;

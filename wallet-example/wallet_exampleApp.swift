@@ -5,9 +5,6 @@ import UIKit
 import WalletConnectSign
 import ReownAppKit
 
-//#if DEBUG
-//import Atlantis
-//#endif
 
 class SocketConnectionManager: ObservableObject {
     @Published var socketConnected: Bool = false
@@ -19,9 +16,6 @@ class AppViewModel: ObservableObject {
     @Published var alertMessage: String = ""
 
     init() {
-//        #if DEBUG
-//        Atlantis.start()
-//        #endif
 
         let projectId = "ac456b9b47197c55edc77c37af11b590"
 
@@ -129,6 +123,8 @@ struct AppKitLabApp: App {
                 }
         }
     }
+    
+    
 }
 
 extension AuthRequestParams {

@@ -29,6 +29,13 @@ struct ContentView: View {
                     }
                 }
                 .buttonStyle(W3MButtonStyle())
+                
+                NavigationLink("Send Transaction") {
+                    SendEthereumView()
+                        .onOpenURL { url in
+                            AppKit.instance.handleDeeplink(url)
+                        }
+                }
             }
             .padding()
         }
@@ -36,9 +43,5 @@ struct ContentView: View {
     func requestPersonalSign() async throws {
         guard let address = AppKit.instance.getAddress() else { return }
         try await AppKit.instance.request(.personal_sign(address: address, message: "Hello there!"))
-
     }
 }
-
-
-//user przesyła info ze swojego konta na contract, param: address from i address to 
